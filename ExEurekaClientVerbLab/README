@@ -1,0 +1,10 @@
+
+
+java -jar -Dspring.profiles.active=names -Dspring.application.name=ClientNames target/eureka-client-0.0.1-SNAPSHOT.jar
+java -jar -Dspring.application.name=ClientVerbs target/eureka-client-0.0.1-SNAPSHOT.jar
+java -jar -Dspring.profiles.active=pronoums -Dspring.application.name=ClientPronoums target/eureka-client-0.0.1-SNAPSHOT.jar 
+
+
+
+
+
